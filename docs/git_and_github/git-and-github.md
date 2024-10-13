@@ -1,5 +1,5 @@
 ---
-title: index page of python 0 - 100
+title: complete git and github
 sidebar_position: 1
 ---
 
