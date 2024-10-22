@@ -180,4 +180,4 @@ Remember the basic data types with "FINS":
 
 ### Exercise: Calculate compound interest using variables and operations
 
-Try creating a Python script that calculates compound interest using the concepts we've learned today!
+so for day one we will make a compound interest calculator 
