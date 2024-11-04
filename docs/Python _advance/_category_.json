@@ -1,8 +1,8 @@
 {
-  "label": "Python advance topics",
+  "label": "Python Advance",
   "position": 4,
   "link": {
-    "type": "Advance topics",
-    "description": "advance topics to learn after basic syntax"
+    "type": "generated-index",
+    "description": "5 minutes to learn the most important Docusaurus concepts."
   }
 }

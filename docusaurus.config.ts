@@ -80,7 +80,6 @@ const config: Config = {
           label: "Learnings",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        { to: "/webdev", label: "WebDev", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
