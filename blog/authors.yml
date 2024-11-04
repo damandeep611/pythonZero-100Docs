@@ -1,16 +1,16 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+dev:
+  name: daman
+  title: full stack dev
+  url: https://github.com/damandeep611
+  image_url: https://github.com/damandeep611.png
   page: true
   socials:
-    x: yangshunz
+    x: scriptorcas
     github: yangshun
 
 slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
+  name: demo
+  title: author
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
   page:

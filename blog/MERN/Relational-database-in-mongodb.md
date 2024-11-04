@@ -1,7 +1,7 @@
 ---
 slug: relational-database-in-mongodb
 title: Understanding relational databases in mongodb
-authors: yangshun
+authors: dev
 tags: [hello, docusaurus]
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: Python Introduction - Day 1
+title: Python Intro and basic syntax
 sidebar_position: 1
 ---
 
-# Python Introduction - Day 1
+# Python Basic syntax
 
 ## Install Python and Setup IDE
 
@@ -26,6 +26,17 @@ is_trading = True  # to declare a boolean type
 print(name)
 # this is how you write a variable and then print it using print function
 ```
+
+## Constants in python 
+Constants are values like variables, but the values in constants shouldn't be changed during program execution, well python doesn't have a different syntax to declare constants but it has a convention to declare constant value i.e naming constant as ALL_CAPS
+
+```python 
+PI = 3.14159
+MAX_CONNECTIONS = 100
+DATABASE_URL = "mongodb://localhost:27017"
+```
+
+One key difference to note is that while you can change a variable's value throughout your code, constants should remain unchanged after their initial assignment to maintain good programming practices.
 
 ### New Syntax for Type Hinting
 
@@ -76,6 +87,9 @@ c = 2.0
 
 # Let's do some basic arithmetic operations
 print(f"sum: {a + b}, product: {a * y}")
+
+# complex is another data type 
+z = 2 + 3j
 ```
 
 ### 3. Strings
@@ -85,6 +99,17 @@ thisOne = "hello world"
 name = "python"
 full_string = thisOne + " " + name
 print(full_string)
+
+# some string methods - 
+text = "Hello, World!"
+
+# Common string methods
+print(text.lower())       # hello, world!
+print(text.upper())       # HELLO, WORLD!
+print(text.split(","))    # ["Hello", " World!"]
+print(text.strip())       # Removes whitespace
+print(text.replace("Hello", "Hi"))  # Hi, World!
+
 ```
 
 ### 4. Booleans
@@ -97,7 +122,7 @@ checkGreater = b > j
 print(checkGreater)
 ```
 
-### 5. Lists
+### 5. Lists 
 Ordered and mutable collections
 
 ```python
@@ -105,6 +130,17 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 numbers.append(12)
 print(numbers)
 # .append is one of many built-in functions that we use to operate on lists 
+
+# Common list methods
+numbers.append(6)      # Add to end
+numbers.insert(0, 0)   # Insert at index
+numbers.remove(3)      # Remove first occurrence
+numbers.pop()          # Remove and return last item
+numbers.sort()         # Sort in place
+numbers.reverse()      # Reverse in place
+
+# List comprehension
+squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]
 ```
 
 ### 6. Dictionaries
@@ -177,6 +213,42 @@ Remember the basic data types with "FINS":
 - **I**nteger
 - **N**one
 - **S**tring
+
+
+## Exception handling in python 
+
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except Exception as e:
+    print(f"An error occurred: {e}")
+finally:
+    print("This always executes")
+
+```
+
+## some build in functions 
+
+```python 
+
+# len() - get length
+print(len([1, 2, 3]))  # 3
+
+# type() - get type
+print(type(42))  # <class 'int'>
+
+# input() - get user input
+name = input("Enter your name: ")
+
+# range() - generate sequence
+for i in range(3):  # 0, 1, 2
+    print(i)
+```
+
+
+some of the key points to remember in python - 
 
 ### Exercise: Calculate compound interest using variables and operations
 
